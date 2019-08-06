@@ -1,3 +1,0 @@
-include h1_vzw_common
-include h1_common-debug
-CONFIG_MEM_SHARE_QMI_SERVICE=y

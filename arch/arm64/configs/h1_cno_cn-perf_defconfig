@@ -1,3 +1,0 @@
-include h1_cno_cn_common
-include h1_common-perf
-CONFIG_MSM_BOOT_STATS=y

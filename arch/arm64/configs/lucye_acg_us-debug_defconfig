@@ -1,3 +1,0 @@
-include lucye_acg_us_common
-include lucye_common-debug
-CONFIG_MEM_SHARE_QMI_SERVICE=y
