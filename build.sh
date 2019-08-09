@@ -31,6 +31,6 @@ time make O="$BUILD" -j$NPR 2>&1 |tee ../compile.log
 
 mkdir -p $OUT/modules
 mv "$BUILD/arch/arm64/boot/Image.gz-dtb" "$OUT/Image.gz-dtb"
-#find "$BUILD/lib/modules/" -name *.ko | xargs -n 1 -I '{}' mv {} "$OUT/modules"
+find "$BUILD/" -name *.ko | xargs -n 1 -I '{}' mv {} "$OUT/modules"
 
 echo "Image.gz-dtb and modules can be found in $OUT"
