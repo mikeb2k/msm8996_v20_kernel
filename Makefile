@@ -2,7 +2,7 @@ VERSION = 3
 PATCHLEVEL = 18
 SUBLEVEL = 71
 EXTRAVERSION =
-NAME = Diseased Newt
+NAME = test
 
 # *DOCUMENTATION*
 # To see a list of typical targets execute "make help"
